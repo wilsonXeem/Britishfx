@@ -1,0 +1,293 @@
+@media screen and (max-width: 850px) {
+  .slide {
+    height: 40rem;
+  }
+
+  .language small,
+  .con p {
+    display: none;
+  }
+
+  .language {
+    height: 7rem;
+  }
+
+  .language a {
+    text-decoration: none;
+    color: white;
+    margin: 0px 1rem;
+    float: none;
+  }
+
+  .google {
+    width: 40%;
+    align-self: center;
+    text-align: center;
+  }
+
+  .content {
+    width: 100%;
+    padding: 10rem 2rem 1rem;
+  }
+
+  .start {
+    height: fit-content;
+    padding: 2rem 1rem;
+  }
+
+  .inf {
+    width: 100%;
+    padding: 2rem 0px;
+  }
+
+  .security {
+    height: fit-content;
+  }
+
+  .msk {
+    padding: 3rem 1rem;
+  }
+
+  .sec {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 2rem;
+    padding-top: 3rem;
+    margin-bottom: 2rem;
+    text-align: justify;
+  }
+
+  .sec1 {
+    padding-right: 0px;
+  }
+
+  .sec2 {
+    border-left: none;
+    padding-left: 0px;
+  }
+
+  .acc {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 2rem;
+    padding: 4rem 2rem 1rem 2rem;
+    border: solid 1px blue;
+    border-radius: 0.5rem;
+  }
+
+  .acc div {
+    padding: 0px;
+  }
+
+  .regg {
+    border-bottom: 1px solid rgb(210, 213, 214);
+  }
+
+  .dep {
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid rgb(210, 213, 214);
+  }
+
+  .analysis {
+    padding: 2rem;
+  }
+
+  .tradeview {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  }
+
+  .xx {
+    display: none;
+  }
+
+  .quicklinks {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+  }
+
+  .links {
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 1rem;
+  }
+
+  .footer {
+    display: flex;
+    flex-direction: row;
+    padding: 0px 1rem;
+  }
+
+  .abt {
+    padding: 1rem;
+  }
+
+  .abt h1 {
+    font-size: 2.5rem;
+  }
+
+  .abt p {
+    text-align: justify;
+  }
+
+  .abt-con {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    padding-top: 2rem;
+  }
+
+  .abt-cont {
+    display: flex;
+    padding: 1rem;
+  }
+
+  .txt {
+    width: 100%;
+    padding-left: 1.5rem;
+  }
+
+  .tt {
+    width: 100%;
+    padding-left: 0rem;
+  }
+
+  .banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 90%;
+    height: 10rem;
+    border: 1px solid blue;
+    border-radius: 0.5rem;
+    box-shadow: 1px 1px 4px gray;
+  }
+
+  .services {
+    padding: 3rem 1rem;
+  }
+
+  .serv {
+    padding-left: 1rem;
+  }
+
+  .serve {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  }
+
+  .pkgs-cont {
+    padding: 3rem 1rem;
+  }
+
+  .pkgs {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 2rem;
+    padding-top: 2rem;
+  }
+
+  .faq {
+    padding: 3rem 1rem;
+  }
+
+  .opt {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    padding-top: 3rem;
+    margin-bottom: 3rem;
+  }
+
+  .to {
+    border: none;
+  }
+
+  .op {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 2rem;
+  }
+
+  .op p {
+    margin-bottom: 1rem;
+  }
+
+  .opt h3 {
+    color: blue;
+  }
+
+  .fq {
+    background-color: rgb(242, 245, 247);
+    margin-top: 3rem;
+    height: 5rem;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2rem;
+  }
+
+  .contact {
+    padding: 3rem 1rem;
+  }
+
+  .con-con {
+    display: flex;
+    flex-direction: column;
+    padding-top: 4rem;
+  }
+
+  .visit div {
+    margin: 1rem 0px;
+  }
+
+  .mm {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 1rem;
+  }
+
+  .form {
+    padding: 0rem;
+  }
+
+  .login-img {
+    display: none;
+  }
+
+   .pword-img {
+    display: none;
+  }
+
+  .log {
+    padding-top: 2rem;
+    text-align: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .signup-img {
+    display: none;
+  }
+
+  .sign {
+    padding-top: 1rem;
+    text-align: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .legal p{
+    padding: 0px;
+  }
+
+  .fom{
+    padding: 0px 2rem;
+  }
+}

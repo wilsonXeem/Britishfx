@@ -1,0 +1,355 @@
+.nav {
+  display: flex;
+  flex-direction: column;
+}
+
+.main {
+  width: 100vw;
+  background: linear-gradient(
+    to right,
+    rgb(72, 149, 242),
+    rgb(154, 228, 251),
+    rgb(72, 149, 242)
+  );
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 4rem 2rem 0px;
+}
+
+.container {
+  border-bottom: 0.2px solid white;
+  height: 5rem;
+}
+
+.header {
+  height: 7rem;
+}
+
+.ul {
+  padding: 1rem 0px;
+}
+
+.ggg {
+  display: flex;
+}
+
+.gg {
+  margin-right: 1rem;
+}
+
+.subhead {
+  display: flex;
+  color: white;
+}
+
+.hhd {
+  width: 20%;
+}
+
+.sub {
+  text-align: end;
+  width: 100%;
+  font-size: small;
+}
+
+.dashes {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(255px, 1fr));
+  grid-gap: 1.2rem;
+  color: white;
+}
+
+.dash {
+  background-color: black;
+  border-radius: 0.5rem;
+  padding: 1.5rem;
+}
+
+.mid {
+  display: flex;
+}
+
+.fnt-bg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.fnt {
+  width: 2rem;
+  height: 1.3rem;
+  border-radius: 0.8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.butt {
+  width: 100%;
+  height: 0.3rem;
+  border-radius: 0.5rem;
+}
+
+.tape {
+  margin: 2rem 0px;
+}
+
+.trade {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  grid-gap: 2rem;
+}
+
+.trade div {
+  background-color: black;
+  border-radius: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.trade h5 {
+  padding: 1rem;
+  color: white;
+}
+
+.foot {
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+  border-top: 0.2px grey solid;
+  color: grey;
+}
+
+.foot p {
+  margin: 0px;
+}
+
+.table {
+  background-color: black;
+  padding: 1rem;
+  margin-top: 2rem;
+  border-radius: 0.5rem;
+}
+
+.history {
+  width: 100vw;
+  background: linear-gradient(
+    to right,
+    rgb(72, 149, 242),
+    rgb(154, 228, 251),
+    rgb(72, 149, 242)
+  );
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 4rem 2rem 0px;
+}
+
+.dep-form {
+  margin-top: 3rem;
+  background-color: black;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+
+.depp-form {
+  width: 50%;
+  align-self: center;
+  margin-top: 1rem;
+}
+
+.profile-container {
+  display: grid;
+  grid-template-columns: 40% 1fr;
+  grid-gap: 1.5rem;
+}
+
+.profile-details {
+  background-color: black;
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+
+.profile-img {
+  margin-bottom: 3rem;
+}
+
+.pro-img {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.prof-img {
+  height: 7rem;
+  width: 7rem;
+  border-radius: 3.5rem;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile-img button {
+  width: 5rem;
+  border: none;
+  border-radius: 1rem;
+  background-color: blue;
+  color: white;
+}
+
+.details {
+  color: rgb(149, 180, 194);
+}
+
+.profile-form {
+  background-color: black;
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+
+.profile-btn {
+  border: none;
+  border-radius: 0.1rem;
+  background-color: blue;
+  color: white;
+  width: 8rem;
+  padding: 1rem;
+  font-size: larger;
+}
+
+.profile-ccn {
+  border: none;
+  border-radius: 0.1rem;
+  background-color: gray;
+  color: white;
+  width: 8rem;
+  padding: 1rem;
+  font-size: larger;
+  margin-left: 1rem;
+}
+
+.refer {
+  background-color: black;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  margin: 1rem 0px 7rem;
+}
+
+.help {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 1.5rem;
+}
+
+.contact-info {
+  background-color: black;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  height: fit-content;
+}
+
+.contact-info div {
+  margin-top: 2rem;
+  color: rgb(184, 192, 198);
+}
+
+.pmi{
+  margin: 2rem 0px;
+}
+
+.pmi form{
+  width: 100%;
+}
+
+.pmi input{
+  width: 100%;
+}
+
+.pmi button{
+  background-color: blue;
+  border: none;
+  height: 2rem;
+  color: white;
+}
+
+@media screen and (max-width: 850px) {
+  .gg,
+  .prof {
+    display: none;
+  }
+
+  .header {
+    height: 2rem;
+  }
+
+  .sub {
+    width: 100%;
+    margin-left: 2rem;
+  }
+
+  .main {
+    padding: 4rem 0.5rem 0px;
+  }
+
+  .foot {
+    height: 3rem;
+  }
+
+  .depp-form {
+    width: 100%;
+  }
+
+  .profile-container {
+    display: block;
+  }
+
+  .profile-form {
+    background-color: black;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    margin-top: 2rem;
+  }
+
+  .refer {
+    margin: 1rem 0px 5rem;
+  }
+
+  .profile-btn {
+    border: none;
+    border-radius: 0.1rem;
+    background-color: blue;
+    color: white;
+    width: 6rem;
+    padding: 1rem;
+    font-size: larger;
+  }
+
+  .profile-ccn {
+    border: none;
+    border-radius: 0.1rem;
+    background-color: gray;
+    color: white;
+    width: 6rem;
+    padding: 1rem;
+    font-size: larger;
+    margin-left: 1rem;
+  }
+
+  .help {
+    display: block;
+  }
+
+  .contact-info {
+    margin-top: 3rem;
+  }
+}
